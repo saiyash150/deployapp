@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-container{
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.submit{
+  background-color: blue;
+  border: solid blue;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.userinput{
+
+  height: 30px;
+  width: 200px;
+  font-size: 18px;
+
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.head{
+  color: red;
+  font-family: Bree serif;
+}
