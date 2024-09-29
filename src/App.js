@@ -35,8 +35,11 @@ class App extends Component{
 
 
     }
-    const web=""
+   const web="https://backform-17eu.onrender.com/register"
     const response=await fetch(web,options)
+
+    console.log(response)
+
 
 
 
