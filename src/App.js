@@ -61,7 +61,7 @@ class App extends Component{
 
           </div>
 
-          <button className="submit" type={submit}>Submit</button>
+          <button className="submit" type="submit">Submit</button>
 
 
 
